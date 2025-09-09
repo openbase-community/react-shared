@@ -5,3 +5,5 @@ export { default as FormErrors } from './components/FormErrors';
 export { default as Button } from './components/Button';
 export { default as WebAuthnLoginButton } from './mfa/WebAuthnLoginButton';
 export { default as ProviderList } from './socialaccount/ProviderList';
+export { AnonymousRoute } from './auth/routing';
+export { AuthContextProvider } from './auth/AuthContext';
