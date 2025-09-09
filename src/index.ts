@@ -1,2 +1,7 @@
 export { default as useLogin } from './hooks/useLogin';
+export { useConfig } from './auth/hooks';
 export { default as Login } from './account/Login';
+export { default as FormErrors } from './components/FormErrors';
+export { default as Button } from './components/Button';
+export { default as WebAuthnLoginButton } from './mfa/WebAuthnLoginButton';
+export { default as ProviderList } from './socialaccount/ProviderList';
