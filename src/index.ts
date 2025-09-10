@@ -1,5 +1,6 @@
 export { default as useLogin } from './hooks/useLogin';
 export { useConfig } from './auth/hooks';
+export { useAuthDeprecated } from './hooks/deprecated';
 export { default as Login } from './account/Login';
 export { default as FormErrors } from './components/FormErrors';
 export { default as Button } from './components/Button';
