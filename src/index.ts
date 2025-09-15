@@ -7,5 +7,6 @@ export { default as FormErrors } from "./components/FormErrors";
 export { useAuthDeprecated } from "./hooks/deprecated";
 export { default as useLogin } from "./hooks/useLogin";
 export { logout } from "./lib/allauth";
+export { getCSRFToken } from "./lib/django";
 export { default as WebAuthnLoginButton } from "./mfa/WebAuthnLoginButton";
 export { default as ProviderList } from "./socialaccount/ProviderList";
