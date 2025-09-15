@@ -1,5 +1,5 @@
 {
-  "name": "openbase-react",
+  "name": "openbase-react-shared",
   "version": "1.0.0",
   "description": "Adds auth and payment to your Openbase project",
   "main": "dist/index.js",
