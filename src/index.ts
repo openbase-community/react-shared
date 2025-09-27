@@ -4,7 +4,7 @@ export { useConfig } from "./auth/hooks";
 export { AnonymousRoute, AuthChangeRedirector } from "./auth/routing";
 export { default as Button } from "./components/Button";
 export { default as FormErrors } from "./components/FormErrors";
-export { useAuthDeprecated } from "./hooks/deprecated";
+export { useFullUser } from "./hooks/useFullUser";
 export { default as useLogin } from "./hooks/useLogin";
 export { logout } from "./lib/allauth";
 export { getCSRFToken } from "./lib/django";
