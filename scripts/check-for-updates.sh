@@ -15,7 +15,7 @@ popd
 echo "Cloned Django allauth example repo to $TMP_DIR"
 
 EXAMPLE_SRC_DIR="$TMP_DIR/django-allauth/examples/react-spa/frontend/src"
-TARGET_SRC_DIR="$ROOT_DIR/react-shared/src"
+TARGET_SRC_DIR="$ROOT_DIR/openbase-react/src"
 
 # Copy files from EXAMPLE_SRC_DIR to TARGET_SRC_DIR while changing extension for capitalized files
 find "$EXAMPLE_SRC_DIR" -type f -name "*.js" -exec bash -c '
