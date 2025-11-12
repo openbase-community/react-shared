@@ -4,7 +4,21 @@ import { getAuth, getConfig } from "../lib/allauth";
 export const AuthContext = createContext(null);
 
 function Loading() {
-  return <div>Starting...</div>;
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "100vh",
+        color: "#9CA3AF",
+        fontSize: "1.5rem",
+        textAlign: "center",
+      }}
+    >
+      Loading...
+    </div>
+  );
 }
 
 function LoadingError() {
