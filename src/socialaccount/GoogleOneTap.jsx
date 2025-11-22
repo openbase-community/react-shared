@@ -44,15 +44,5 @@ export default function GoogleOneTap (props) {
     installGoogleOneTap(onGoogleOneTapInstalled)
     return null
   }
-  function enable () {
-    window.sessionStorage.setItem('googleOneTapEnabled', 'yes')
-    installGoogleOneTap(onGoogleOneTapInstalled)
-    setEnabled(true)
-  }
-  return (
-    <div className='alert alert-danger d-flex justify-content-between'>
-      <span><strong>Mind your privacy:</strong> Do you want to demo Google One Tap sign-in?</span>
-      <button onClick={() => enable()} className='btn btn-sm btn-danger'>Enable</button>
-    </div>
-  )
+  return null
 }
